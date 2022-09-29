@@ -82,7 +82,7 @@ function loadMovieData(title = null) {
 
 // execute when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
-    //loadMovieData();
+    loadMovieData();
 
     // click event for the "previous page" pagination button
     document.querySelector('#previous-page').addEventListener('click', () => {
